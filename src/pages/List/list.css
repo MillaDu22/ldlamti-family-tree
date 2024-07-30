@@ -1,0 +1,11 @@
+.diaporama {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 0 auto;
+    overflow: hidden;
+}

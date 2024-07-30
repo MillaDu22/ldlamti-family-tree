@@ -1,0 +1,16 @@
+.flag-display {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.flag-item {
+    text-align: center;
+}
+
+.flag-image {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
