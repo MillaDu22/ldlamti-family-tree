@@ -9,8 +9,8 @@ const List = () => {
 
     // Fonction pour trier les individus par ordre alphabétique //
     const sortedIndividuals = individuals.sort((a, b) => {
-        const nameA = `${a.first_name} ${a.last_name}`.toUpperCase();
-        const nameB = `${b.first_name} ${b.last_name}`.toUpperCase();
+        const nameA = ` ${a.last_name}`.toUpperCase();
+        const nameB = ` ${b.last_name}`.toUpperCase();
         return nameA.localeCompare(nameB);
     });
 

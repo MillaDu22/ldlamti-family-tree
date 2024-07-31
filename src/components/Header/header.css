@@ -47,7 +47,8 @@
     animation: animate 2s linear infinite;
     -webkit-background-clip: text;
     background-clip:text;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0.505);
+    /*-webkit-text-fill-color: rgba(255, 255, 255, 0.505);*/
+    -webkit-text-fill-color: rgba(0, 0, 0, 0.217);
 }
 
 @keyframes animate {
@@ -114,9 +115,9 @@
     flex-direction: row;
     justify-content: center;
     font-family: 'Boheme';
-    color:white;
+    color:black;
     font-size: 45px;
-    line-height: 60px;
+    line-height: 75px;
     font-weight: 100;
     margin-top: 15px;
     margin-left: 20px;

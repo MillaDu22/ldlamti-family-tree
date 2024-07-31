@@ -21,8 +21,11 @@ const Fiche = () => {
                 <p><strong>Lieu de décès:</strong> {person.death_place}</p>
                 <p><strong>Profession:</strong> {person.profession}</p>
                 <p><strong>Parents:</strong> {person.parents ? person.parents.join(', ') : 'Aucun'}</p>
+                <p><strong>Fratrie:</strong> {person.siblings ? person.siblings.join(', ') : 'Aucun'}</p>
                 <p><strong>Enfants:</strong> {person.children ? person.children.join(', ') : 'Aucun'}</p>
-                <Link to="/list" className="back-link">Retour à la liste des membres</Link>
+                <div className= "container-button">
+                    <Link to="/list" className="back-link">Retour à la liste des membres</Link>
+                </div>
             </div>
         </div>
     );
