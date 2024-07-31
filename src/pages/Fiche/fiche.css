@@ -1,43 +1,43 @@
-.fiche {
-    width: 100%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    display: flex;
+.container-fiche {
+    margin: 10% auto;
+    display:flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+.member-profile {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin: 0 auto;
+    width:60%;
+    padding: 20px;
+}
+
+.member-profile h1 {
+    width: 100%;
+    margin-top: 0;
     text-align: center;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.member-profile p {
+    font-size: 1.2em;
+    text-align: left;
+    font-family: 'Ysabeau SC', sans-serif;
 }
 
 .back-link {
-    display: block;
-    margin-bottom: 20px;
-    font-family: 'Ysabeau SC', sans-serif;
+    width:100%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
     text-decoration: none;
-    color: black;
-    font-size: 18px;
-    padding: 15px;
-    border-radius: 30px;
-    background: #f5f5f5;
-    box-shadow: 0 3px 4px white, inset 0 -2px 5px rgb(223, 223, 223),
-    inset 0 4px 15px rgba(208, 208, 208, 0.245), 0 0 0 2px white, 0 0 0 5px white,
-    0 0 0 5.5px #e8e8e8;
+    color: blue;
+    font-family: 'Ysabeau SC', sans-serif;
 }
 
 .back-link:hover {
-    box-shadow:  inset 2px 2px 5px #dedede, inset -5px -5px 10px white;
-}
-
-
-@media (max-width: 971px) {
-    .fiche {
-        width: 100%;
-        padding-right: 0;
-        padding-left: 0;
-    }
-    .back-link {
-        font-size: 16px;
-        margin-bottom: 0;
-    }
-
+    text-decoration: underline;
 }

@@ -16,7 +16,8 @@ function Banner () {
                         et je découvre les histoires qui ont façonné mon existence.
                         Je retrace mes ancêtres. Je découvre des histoires oubliées 
                         et tout simplement je me connecte avec mes proches, 
-                        j'espère que vous trouverez cette page enrichissante et inspirante. 
+                        j'espère que vous trouverez cette page enrichissante et inspirante.
+                        Pour l'exemple les datas sont simulées. 
                     </p>
                 </div>
                 <span className="circle">

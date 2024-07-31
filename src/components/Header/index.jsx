@@ -16,7 +16,7 @@ function Header() {
                     </div>
                 </div>
                 <div className="container-logo-subtitle">
-                    <h2 className = "subtitle-app">Ludmilla Marti</h2>
+                    <h2 className = "subtitle-app">Jean Dupont</h2>
                 </div>
             </Link>
             <Navbar />

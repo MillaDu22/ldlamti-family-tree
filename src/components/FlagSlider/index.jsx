@@ -1,7 +1,8 @@
 import React from 'react';
 import France from '../../assets/icons/france.png';
 import Allemagne from '../../assets/icons/allemagne.png';
-import Espagne from '../../assets/icons/allemagne.png';
+import Espagne from '../../assets/icons/espagne.png';
+import Italie from '../../assets/icons/italie.png'
 import './flagslider.css'; 
 
 const FlagSlider = () => {
@@ -9,7 +10,7 @@ const FlagSlider = () => {
         { name: 'France', imageUrl: France},
         { name: 'Spain', imageUrl: Espagne },
         { name: 'Germany', imageUrl: Allemagne },
-        { name: 'Italy', imageUrl: France }
+        { name: 'Italy', imageUrl: Italie }
     ];
 
 

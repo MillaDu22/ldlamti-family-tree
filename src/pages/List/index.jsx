@@ -1,16 +1,48 @@
 import React from 'react';
-import './list.css';
+import { Link } from 'react-router-dom';
+import treeData from '../../Datas/datasTree.json';
+import './list.css'; 
 
+const List = () => {
+    // Extraction des individus depuis les données //
+    const individuals = treeData.individuals;
 
-function Diaporama() {
+    // Fonction pour trier les individus par ordre alphabétique //
+    const sortedIndividuals = individuals.sort((a, b) => {
+        const nameA = `${a.first_name} ${a.last_name}`.toUpperCase();
+        const nameB = `${b.first_name} ${b.last_name}`.toUpperCase();
+        return nameA.localeCompare(nameB);
+    });
 
-
+    // Organisation des individus par lettre initiale //
+    const groupedIndividuals = sortedIndividuals.reduce((acc, individual) => {
+        const initial = individual.last_name.charAt(0).toUpperCase();
+        if (!acc[initial]) {
+        acc[initial] = [];
+        }
+        acc[initial].push(individual);
+        return acc;
+    }, {});
 
     return (
-        <div className="diaporama">
-            
+        <div className="member-list">
+        <h1 className = "title-list">Liste des Membres de la Famille</h1>
+        {Object.keys(groupedIndividuals).map(letter => (
+            <div key={letter} className="letter-group">
+            <h2>{letter}</h2>
+            <ul>
+                {groupedIndividuals[letter].map(individual => (
+                <li key={individual.id}>
+                    <Link to={`/fiche/${individual.id}`} className="member-link">
+                    {`${individual.first_name} ${individual.last_name}`}
+                    </Link>
+                </li>
+                ))}
+            </ul>
+            </div>
+        ))}
         </div>
     );
-}
+};
 
-export default Diaporama;
+export default List;
