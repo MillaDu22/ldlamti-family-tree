@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/ldlamti-family-tree/static/css/main.f5fedc4b.css",
-    "main.js": "/ldlamti-family-tree/static/js/main.809e8ef1.js",
+    "main.css": "/ldlamti-family-tree/static/css/main.fd9bd471.css",
+    "main.js": "/ldlamti-family-tree/static/js/main.d096a0be.js",
     "static/js/453.5c7bbaba.chunk.js": "/ldlamti-family-tree/static/js/453.5c7bbaba.chunk.js",
+    "static/media/espagne.png": "/ldlamti-family-tree/static/media/espagne.59e666e6a1891487fe6b.png",
     "static/media/allemagne.png": "/ldlamti-family-tree/static/media/allemagne.4e2c369fec1912a69978.png",
+    "static/media/italie.png": "/ldlamti-family-tree/static/media/italie.cc09b7779d0400f14901.png",
     "static/media/france.png": "/ldlamti-family-tree/static/media/france.c736c459f76d3a6636e1.png",
     "static/media/Boheme Floral.ttf": "/ldlamti-family-tree/static/media/Boheme Floral.0345ab604f426031d363.ttf",
     "static/media/Cinzel-Regular.otf": "/ldlamti-family-tree/static/media/Cinzel-Regular.f91baf6fe825a2549798.otf",
     "static/media/photo-moi.webp": "/ldlamti-family-tree/static/media/photo-moi.91ef79723d60e8dfc21a.webp",
     "index.html": "/ldlamti-family-tree/index.html",
-    "main.f5fedc4b.css.map": "/ldlamti-family-tree/static/css/main.f5fedc4b.css.map",
-    "main.809e8ef1.js.map": "/ldlamti-family-tree/static/js/main.809e8ef1.js.map",
+    "main.fd9bd471.css.map": "/ldlamti-family-tree/static/css/main.fd9bd471.css.map",
+    "main.d096a0be.js.map": "/ldlamti-family-tree/static/js/main.d096a0be.js.map",
     "453.5c7bbaba.chunk.js.map": "/ldlamti-family-tree/static/js/453.5c7bbaba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5fedc4b.css",
-    "static/js/main.809e8ef1.js"
+    "static/css/main.fd9bd471.css",
+    "static/js/main.d096a0be.js"
   ]
 }
