@@ -22,6 +22,7 @@ const Fiche = () => {
                 <p><strong>Profession:</strong> {person.profession}</p>
                 <p><strong>Parents:</strong> {person.parents ? person.parents.join(', ') : 'Aucun'}</p>
                 <p><strong>Fratrie:</strong> {person.siblings ? person.siblings.join(', ') : 'Aucun'}</p>
+                <p><strong>Union avec:</strong> {person.spouse}</p>
                 <p><strong>Enfants:</strong> {person.children ? person.children.join(', ') : 'Aucun'}</p>
                 <div className= "container-button">
                     <Link to="/list" className="back-link">Retour à la liste des membres</Link>

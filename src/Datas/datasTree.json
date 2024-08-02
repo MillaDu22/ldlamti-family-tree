@@ -11,8 +11,8 @@
             "profession": "Developer",
             "parents": ["Jean Dupond", "Marie Moreau"],
             "siblings": ["Emma Dupont", "Luc Dupont"],
-            "spouse": null,
-            "children": []
+            "spouse": "Célibataire",
+            "children": [0]
         },
         {
             "id": -2,
@@ -25,8 +25,8 @@
             "profession": "Designer",
             "parents": ["Jean Dupond", "Marie Moreau"],
             "siblings": ["Luc Dupont", "François Dupont"],
-            "spouse": null,
-            "children": []
+            "spouse": "Célibataire",
+            "children": [0]
         },
         {
             "id": -1,
@@ -39,7 +39,7 @@
             "profession": "Étudiant",
             "parents": ["Jean Dupond", "Marie Moreau"],
             "siblings": ["Emma Dupont", "François Dupont"],
-            "spouse": null,
+            "spouse": "Célibataire",
             "children": [0]
         },
         {
@@ -48,13 +48,13 @@
             "last_name": "Dupont",
             "birth_date": "1965-03-15",
             "birth_place": "Paris, France",
-            "death_date": null,
-            "death_place": null,
+            "death_date": "Vivant",
+            "death_place": "Néant",
             "profession": "Médecin",
-            "parents": [1, 2],
-            "siblings": [3],
-            "spouse": 4,
-            "children": [-1, -2]
+            "parents": ["Michel Dupont", "Claire Santini"],
+            "siblings": ["Néant"],
+            "spouse": "Marie Moreau",
+            "children": ["François Dupont", "Emma Dupont", "Luc Dupont"]
         },
         {
             "id": 1,
@@ -65,10 +65,10 @@
             "death_date": "2010-09-12",
             "death_place": "Lyon, France",
             "profession": "Enseignante",
-            "parents": [7, 8],
-            "siblings": [],
-            "spouse": 1,
-            "children": [0, 3]
+            "parents": ["Robert Moreau", "Isabella Rossi"],
+            "siblings": ["Néant"],
+            "spouse": "Jean Dupont",
+            "children": ["François Dupont", "Emma Dupont", "Luc Dupont"]
         },
         {
             "id": 2,
@@ -79,10 +79,10 @@
             "death_date": "2005-07-10",
             "death_place": "Paris, France",
             "profession": "Ingénieur",
-            "parents": [5, 6],
-            "siblings": [],
-            "spouse": 2,
-            "children": [0, 3]
+            "parents": ["Pierre Dupont", "Elena Bianchi"],
+            "siblings": ["Néant"],
+            "spouse": "Claire Santini",
+            "children": ["Jean Dupont"]
         },
         {
             "id": 3,
@@ -90,13 +90,13 @@
             "last_name": "Santini",
             "birth_date": "1968-09-05",
             "birth_place": "Paris, France",
-            "death_date": null,
-            "death_place": null,
+            "death_date": "Vivante",
+            "death_place": "Néant",
             "profession": "Architecte",
-            "parents": [1, 2],
-            "siblings": [0],
-            "spouse": null,
-            "children": []
+            "parents": ["José Santini", "Anne Leroy"],
+            "siblings": ["Néant"],
+            "spouse": "Michel Dupont",
+            "children": ["Jean Dupont"]
         },
         {
             "id": 4,
@@ -107,10 +107,10 @@
             "death_date": "1985-08-23",
             "death_place": "Lyon, France",
             "profession": "Agriculteur",
-            "parents": [11, 12],
-            "siblings": [],
-            "spouse": 6,
-            "children": [1]
+            "parents": ["Lukas Moreau", "Marguerite Giraud"],
+            "siblings": ["Néant"],
+            "spouse": "Isabella Rossi",
+            "children": ["Marie Moreau"]
         },
         {
             "id": 5,
@@ -118,13 +118,13 @@
             "last_name": "Rossi",
             "birth_date": "1970-02-21",
             "birth_place": "Rome, Italie",
-            "death_date": null,
-            "death_place": null,
+            "death_date": "Vivante",
+            "death_place": "Néant",
             "profession": "Avocate",
-            "parents": [9, 10],
-            "siblings": [],
-            "spouse": 0,
-            "children": [-1, -2]
+            "parents": ["Giovanni Rossi", "Sofia Martinez"],
+            "siblings": ["Néant"],
+            "spouse": "Robert Moreau",
+            "children": ["Marie Moreau"]
         },
         {
             "id": 6,
@@ -135,10 +135,10 @@
             "death_date": "1980-11-15",
             "death_place": "Marseille, France",
             "profession": "Ouvrier",
-            "parents": [],
-            "siblings": [],
-            "spouse": 8,
-            "children": [2]
+            "parents": ["Inconnus"],
+            "siblings": ["Néant"],
+            "spouse": "Anne Leroy",
+            "children": ["Claire Santini"]
         },
         {
             "id": 7,
@@ -149,10 +149,10 @@
             "death_date": "1990-05-11",
             "death_place": "Bordeaux, France",
             "profession": "Couturière",
-            "parents": [],
-            "siblings": [],
-            "spouse": 5,
-            "children": [1]
+            "parents": ["Inconnus"],
+            "siblings": ["Néant"],
+            "spouse": "José Santini",
+            "children": ["Claire Santini"]
         },
         {
             "id": 8,
@@ -160,13 +160,13 @@
             "last_name": "Rossi",
             "birth_date": "1940-03-12",
             "birth_place": "Milan, Italie",
-            "death_date": null,
-            "death_place": null,
+            "death_date": "Vivant",
+            "death_place": "Néant",
             "profession": "Professeur",
-            "parents": [],
-            "siblings": [],
-            "spouse": 10,
-            "children": [4]
+            "parents": ["Inconnus"],
+            "siblings": ["Néant"],
+            "spouse": "Sofia Martinez",
+            "children": ["Isabella Rossi"]
         },
         {
             "id": 9,
@@ -177,10 +177,10 @@
             "death_date": "1982-06-27",
             "death_place": "Marseille, France",
             "profession": "Femme au foyer",
-            "parents": [],
-            "siblings": [],
-            "spouse": 7,
-            "children": [2]
+            "parents": ["Inconnus"],
+            "siblings": ["Néant"],
+            "spouse": "Giovanni Rossi",
+            "children": ["Isabella Rossi"]
         },
         {
             "id": 10,
@@ -191,10 +191,10 @@
                 "death_date": "1955-10-20",
                 "death_place": "Bordeaux, France",
                 "profession": "Militaire",
-                "parents": [],
-                "siblings": [],
-                "spouse": 12,
-                "children": [5]
+                "parents": ["Inconnus"],
+                "siblings": ["Néant"],
+                "spouse": "Elena Bianchi",
+                "children": ["Michel Dupont"]
             },
         {
             "id": 11,
@@ -202,13 +202,13 @@
             "last_name": "Bianchi",
             "birth_date": "1945-09-28",
             "birth_place": "Florence, Italie",
-            "death_date": null,
-            "death_place": null,
+            "death_date": "Vivant",
+            "death_place": "Néant",
             "profession": "Comptable",
-            "parents": [],
-            "siblings": [],
-            "spouse": 9,
-            "children": [4]
+            "parents": ["Inconnus"],
+            "siblings": ["Néant"],
+            "spouse": "Pierre Dupont",
+            "children": ["Michel Dupont"]
         },
                 {
             "id": 12,
@@ -219,10 +219,10 @@
             "death_date": "1960-04-15",
             "death_place": "Bordeaux, France",
             "profession": "Infirmière",
-            "parents": [],
-            "siblings": [],
-            "spouse": 11,
-            "children": [5]
+            "parents": ["Inconnus"],
+            "siblings": ["Néant"],
+            "spouse": "Marguerite Giraud",
+            "children": ["Robert Moreau"]
         },
         {
             "id": 13,
@@ -233,10 +233,10 @@
             "death_date": "1960-04-15",
             "death_place": "Bordeaux, France",
             "profession": "Infirmière",
-            "parents": [],
-            "siblings": [],
-            "spouse": 11,
-            "children": [5]
+            "parents": ["Inconnus"],
+            "siblings": ["Néant"],
+            "spouse": "Lukas Moreau",
+            "children": ["Robert Moreau"]
         }
     ]
 }

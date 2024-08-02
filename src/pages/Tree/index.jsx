@@ -1,7 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Alliance from '../../assets/icons/alliance.png';
+import Connector from '../../components/Connector/index';
 import './tree.css';
 import treeData from '../../Datas/datasTree.json';
+
 
 
 const FamilyTree = () => {
@@ -17,11 +20,10 @@ const FamilyTree = () => {
         if (!individual) return null;
 
         const { first_name, last_name, birth_date, birth_place, death_date, death_place, profession } = individual;
-        const cardClass = gender === 'male' ? 'card-m' : 'card-f';
-
+        const borderClass = gender === 'male' ? 'border-male' : 'border-female';
         return (
-            <Link to={`/fiche/${id}`} className={cardClass}>
-                <div className="card-content">
+            <Link to={`/fiche/${id}`} className="link">
+                <div className={`card-content ${borderClass}`}>
                     <div className="card-item">
                         <strong>Prénom:</strong> {first_name}
                     </div>
@@ -49,42 +51,142 @@ const FamilyTree = () => {
     };
 
         // Rendering great great-grandparents //
-        const renderGreatGreatGrandParents = () => {
-            const paternalGreatGreatGrandfather = findIndividualById(10); 
-            const paternalGreatGreatGrandmother = findIndividualById(11); 
-            const maternalGreatGreatGrandfather = findIndividualById(12); 
-            const maternalGreatGreatGrandmother = findIndividualById(13);
+            /*const renderGreatGreatGrandParents = () => {
+                const paternalGreatGreatGrandfather4 = findIndividualById(29); 
+                const paternalGreatGreatGrandmother4 = findIndividualById(28); 
+                const maternalGreatGreatGrandfather4 = findIndividualById(27); 
+                const maternalGreatGreatGrandmother4 = findIndividualById(26);
+                const paternalGreatGreatGrandfather3 = findIndividualById(25); 
+                const paternalGreatGreatGrandmother3 = findIndividualById(24); 
+                const maternalGreatGreatGrandfather3 = findIndividualById(23); 
+                const maternalGreatGreatGrandmother3 = findIndividualById(22);
+                const paternalGreatGreatGrandfather2 = findIndividualById(21); 
+                const paternalGreatGreatGrandmother2 = findIndividualById(20); 
+                const maternalGreatGreatGrandfather2 = findIndividualById(19); 
+                const maternalGreatGreatGrandmother2 = findIndividualById(18);
+                const paternalGreatGreatGrandfather1 = findIndividualById(17); 
+                const paternalGreatGreatGrandmother1 = findIndividualById(16); 
+                const maternalGreatGreatGrandfather1 = findIndividualById(15); 
+                const maternalGreatGreatGrandmother1 = findIndividualById(14);
     
             return (
-                <div className="generation" id="greatGreatGrandParents">
-                    <div className="pair">
-                        {renderIndividualCard(paternalGreatGreatGrandfather.id, 'male')}
-                        {renderIndividualCard(paternalGreatGreatGrandmother.id, 'female')}
+                <div className="generation generation4" id="greatGreatGrandParents">
+                    <div className="container-pair container-pair13">
+                        <div className="pair pair13">
+                            {renderIndividualCard(paternalGreatGreatGrandfather4.id, 'male')}
+                            <img className="alliance" src={Alliance} alt="alliances"/>
+                            {renderIndividualCard(paternalGreatGreatGrandmother4.id, 'female')}
+                        </div>
+                        <Connector />
                     </div>
-                    <div className="pair">
-                        {renderIndividualCard(maternalGreatGreatGrandfather.id, 'male')}
-                        {renderIndividualCard(maternalGreatGreatGrandmother.id, 'female')}
+                    <div className="container-pair container-pair12">
+                        <div className="pair pair12">
+                            {renderIndividualCard(maternalGreatGreatGrandfather4.id, 'male')}
+                            <img className="alliance" src={Alliance} alt="alliances"/>
+                            {renderIndividualCard(maternalGreatGreatGrandmother4.id, 'female')}
+                        </div>
+                        <Connector />
+                    </div>
+                    <div className="container-pair container-pair11">
+                        <div className="pair pair11">
+                            {renderIndividualCard(paternalGreatGreatGrandfather3.id, 'male')}
+                            <img className="alliance" src={Alliance} alt="alliances"/>
+                            {renderIndividualCard(paternalGreatGreatGrandmother3.id, 'female')}
+                        </div>
+                        <Connector />
+                    </div>
+                    <div className="container-pair container-pair10">
+                        <div className="pair pair10">
+                            {renderIndividualCard(maternalGreatGreatGrandfather3.id, 'male')}
+                            <img className="alliance" src={Alliance} alt="alliances"/>
+                            {renderIndividualCard(maternalGreatGreatGrandmother3.id, 'female')}
+                        </div>
+                        <Connector />
+                    </div>
+                    <div className="container-pair container-pair9">
+                        <div className="pair pair9">
+                            {renderIndividualCard(paternalGreatGreatGrandfather2.id, 'male')}
+                            <img className="alliance" src={Alliance} alt="alliances"/>
+                            {renderIndividualCard(paternalGreatGreatGrandmother2.id, 'female')}
+                        </div>
+                        <Connector />
+                    </div>
+                    <div className="container-pair container-pair8">
+                        <div className="pair pair8">
+                            {renderIndividualCard(maternalGreatGreatGrandfather2.id, 'male')}
+                            <img className="alliance" src={Alliance} alt="alliances"/>
+                            {renderIndividualCard(maternalGreatGreatGrandmother2.id, 'female')}
+                        </div>
+                        <Connector />
+                    </div>
+                    <div className="container-pair container-pair7">
+                        <div className="pair pair7">
+                            {renderIndividualCard(paternalGreatGreatGrandfather1.id, 'male')}
+                            <img className="alliance" src={Alliance} alt="alliances"/>
+                            {renderIndividualCard(paternalGreatGreatGrandmother1.id, 'female')}
+                        </div>
+                        <Connector />
+                    </div>
+                    <div className="container-pair container-pair6">
+                        <div className="pair pair6">
+                            {renderIndividualCard(maternalGreatGreatGrandfather1.id, 'male')}
+                            <img className="alliance" src={Alliance} alt="alliances"/>
+                            {renderIndividualCard(maternalGreatGreatGrandmother1.id, 'female')}
+                        </div>
+                        <Connector />
                     </div>
                 </div>
             );
-        };
+        };*/
 
     // Rendering great-grandparents //
     const renderGreatGrandParents = () => {
-        const paternalGreatGrandfather = findIndividualById(6); 
-        const paternalGreatGrandmother = findIndividualById(7); 
-        const maternalGreatGrandfather = findIndividualById(8); 
-        const maternalGreatGrandmother = findIndividualById(9);
+        const paternalGreatGrandfather1 = findIndividualById(12); 
+        const paternalGreatGrandmother1 = findIndividualById(13); 
+        const maternalGreatGrandfather1 = findIndividualById(8); 
+        const maternalGreatGrandmother1 = findIndividualById(9);
+        const paternalGreatGrandfather2 = findIndividualById(10); 
+        const paternalGreatGrandmother2 = findIndividualById(11); 
+        const maternalGreatGrandfather2 = findIndividualById(6); 
+        const maternalGreatGrandmother2 = findIndividualById(7);
+
 
         return (
-            <div className="generation" id="greatGrandParents">
-                <div className="pair">
-                    {renderIndividualCard(paternalGreatGrandfather.id, 'male')}
-                    {renderIndividualCard(paternalGreatGrandmother.id, 'female')}
+            <div className="generation generation3" id="greatGrandParents">
+                <div className="container-pair container-pair7">
+                    <div className="pair pair5">
+                        {renderIndividualCard(paternalGreatGrandfather2.id, 'male')}
+                        <img className="alliance" src={Alliance} alt="alliances"/>
+                        {renderIndividualCard(paternalGreatGrandmother2.id, 'female')}
+                    </div>
+                    <Connector />
+                    <div className = "long-horizontal2"></div>
                 </div>
-                <div className="pair">
-                    {renderIndividualCard(maternalGreatGrandfather.id, 'male')}
-                    {renderIndividualCard(maternalGreatGrandmother.id, 'female')}
+                <div className="container-pair container-pair6">
+                    <div className="pair pair4">
+                        {renderIndividualCard(maternalGreatGrandfather2.id, 'male')}
+                        <img className="alliance" src={Alliance} alt="alliances"/>
+                        {renderIndividualCard(maternalGreatGrandmother2.id, 'female')}
+                    </div>
+                    <Connector />
+
+                </div>
+                <div className="container-pair container-pair5">
+                    <div className="pair pair5">
+                        {renderIndividualCard(paternalGreatGrandfather1.id, 'male')}
+                        <img className="alliance" src={Alliance} alt="alliances"/>
+                        {renderIndividualCard(paternalGreatGrandmother1.id, 'female')}
+                    </div>
+                    <Connector />
+                </div>
+                <div className="container-pair container-pair4">
+                    <div className="pair pair4">
+                        {renderIndividualCard(maternalGreatGrandfather1.id, 'male')}
+                        <img className="alliance" src={Alliance} alt="alliances"/>
+                        {renderIndividualCard(maternalGreatGrandmother1.id, 'female')}
+                    </div>
+                    <Connector />
+                    <span className = "long-horizontal1"></span>
                 </div>
             </div>
         );
@@ -98,14 +200,22 @@ const FamilyTree = () => {
         const maternalGrandmother = findIndividualById(5);
 
         return (
-            <div className="generation" id="grandParents">
-                <div className="pair">
-                    {renderIndividualCard(paternalGrandfather.id, 'male')}
-                    {renderIndividualCard(paternalGrandmother.id, 'female')}
+            <div className="generation generation2" id="grandParents">
+                <div className="container-pair container-pair3">
+                    <div className="pair pair3">
+                        {renderIndividualCard(paternalGrandfather.id, 'male')}
+                        <img className="alliance" src={Alliance} alt="alliances"/>
+                        {renderIndividualCard(paternalGrandmother.id, 'female')}
+                    </div>
+                    <Connector />
                 </div>
-                <div className="pair">
-                    {renderIndividualCard(maternalGrandfather.id, 'male')}
-                    {renderIndividualCard(maternalGrandmother.id, 'female')}
+                <div className="container-pair container-pair2">
+                    <div className="pair pair2">
+                        {renderIndividualCard(maternalGrandfather.id, 'male')}
+                        <img className="alliance" src={Alliance} alt="alliances"/>
+                        {renderIndividualCard(maternalGrandmother.id, 'female')}
+                    </div>
+                    <Connector />
                 </div>
             </div>
         );
@@ -117,10 +227,14 @@ const FamilyTree = () => {
         const mother = findIndividualById(1);
 
         return (
-            <div className="generation" id="parents">
-                <div className="pair">
-                    {renderIndividualCard(father.id, 'male')}
-                    {renderIndividualCard(mother.id, 'female')}
+            <div className="generation generation1" id="parents">
+                <div className="container-pair container-pair1">
+                    <div className="pair pair1">
+                        {renderIndividualCard(father.id, 'male')}
+                        <img className="alliance" src={Alliance} alt="alliances"/>
+                        {renderIndividualCard(mother.id, 'female')}
+                    </div>
+                    <Connector />
                 </div>
             </div>
         );
@@ -142,7 +256,7 @@ const FamilyTree = () => {
     return (
         <div className="page-tree">
             <div id="familyTree">
-                {renderGreatGreatGrandParents()}
+                {/*{renderGreatGreatGrandParents()}*/}
                 {renderGreatGrandParents()}
                 {renderGrandParents()}
                 {renderParents()}
@@ -153,4 +267,3 @@ const FamilyTree = () => {
 };
 
 export default FamilyTree;
-

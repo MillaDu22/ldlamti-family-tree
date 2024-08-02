@@ -34,7 +34,7 @@ const List = () => {
                 {groupedIndividuals[letter].map(individual => (
                 <li key={individual.id}>
                     <Link to={`/fiche/${individual.id}`} className="member-link">
-                    {`${individual.first_name} ${individual.last_name}`}
+                    {`${individual.last_name} ${individual.first_name}`}
                     </Link>
                 </li>
                 ))}

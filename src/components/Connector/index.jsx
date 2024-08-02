@@ -1,13 +1,17 @@
-import React from 'react';
-import Bracket from '../../assets/icons/right-curly-brace.svg';
 import './connector.css';
 
-function Connector({ style }) {
+function Connector() {
     return (
-        <div className="container-bracket-curly" style={style}>
-            <img className="bracket" src={Bracket} alt="bracket" />
+        <div className="connector">
+            <div className ="container-connector">
+                <span className="vertical-left"></span>
+                <span className="horizontal"></span>
+                <span className="vertical-right"></span>
+            </div>
+            <div className="fleche">
+                <span className="vertical-center"></span>
+            </div>
         </div>
-    );
-};
-
+    )
+}
 export default Connector;
