@@ -1,13 +1,44 @@
+
 .title-list {
     width:100%;
     text-align: center;
     font-family: 'Ysabeau SC', sans-serif;
 }
+
+.container-containers-list {
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width:50%;
+}
+
+.container-image-tree {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+}
+
+.back-tree {
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
 .member-list {
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
     width:72%;
@@ -48,5 +79,10 @@ ul{
 @media screen and (max-width: 768px) {
     .member-list {
         width: 76%;
+        border-radius: 0px;
+        margin: 0%;
+        width:90%;
+        box-shadow: none;
+        padding: 5%;
     }
 }

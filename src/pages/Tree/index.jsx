@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Alliance from '../../assets/icons/alliance.png';
+import Alliance from '../../assets/icons/alliances.png';
 import Connector from '../../components/Connector/index';
 import './tree.css';
 import treeData from '../../Datas/datasTree.json';
