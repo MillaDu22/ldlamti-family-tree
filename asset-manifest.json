@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/ldlamti-family-tree/static/css/main.18923c7c.css",
-    "main.js": "/ldlamti-family-tree/static/js/main.e86d0470.js",
+    "main.css": "/ldlamti-family-tree/static/css/main.7942404e.css",
+    "main.js": "/ldlamti-family-tree/static/js/main.505cafa4.js",
     "static/js/453.5c7bbaba.chunk.js": "/ldlamti-family-tree/static/js/453.5c7bbaba.chunk.js",
+    "static/media/olivier.png": "/ldlamti-family-tree/static/media/olivier.d42d7eb163d915ee186d.png",
     "static/media/espagne.png": "/ldlamti-family-tree/static/media/espagne.59e666e6a1891487fe6b.png",
+    "static/media/orchidée.png": "/ldlamti-family-tree/static/media/orchidée.d947dd75495347f5ab44.png",
     "static/media/allemagne.png": "/ldlamti-family-tree/static/media/allemagne.4e2c369fec1912a69978.png",
+    "static/media/tree2.png": "/ldlamti-family-tree/static/media/tree2.4dc7ebd45aef903b758f.png",
     "static/media/italie.png": "/ldlamti-family-tree/static/media/italie.cc09b7779d0400f14901.png",
     "static/media/france.png": "/ldlamti-family-tree/static/media/france.c736c459f76d3a6636e1.png",
+    "static/media/tree.png": "/ldlamti-family-tree/static/media/tree.2b074aa0855c37120845.png",
+    "static/media/alliances.png": "/ldlamti-family-tree/static/media/alliances.73e2020a9fc6c5e58e0b.png",
+    "static/media/lavande3.png": "/ldlamti-family-tree/static/media/lavande3.e3569231fd604cdb1d4e.png",
     "static/media/Boheme Floral.ttf": "/ldlamti-family-tree/static/media/Boheme Floral.0345ab604f426031d363.ttf",
     "static/media/Cinzel-Regular.otf": "/ldlamti-family-tree/static/media/Cinzel-Regular.f91baf6fe825a2549798.otf",
-    "static/media/alliance.png": "/ldlamti-family-tree/static/media/alliance.b42017464ce764e228ab.png",
     "static/media/photo-moi.webp": "/ldlamti-family-tree/static/media/photo-moi.91ef79723d60e8dfc21a.webp",
     "index.html": "/ldlamti-family-tree/index.html",
-    "main.18923c7c.css.map": "/ldlamti-family-tree/static/css/main.18923c7c.css.map",
-    "main.e86d0470.js.map": "/ldlamti-family-tree/static/js/main.e86d0470.js.map",
+    "main.7942404e.css.map": "/ldlamti-family-tree/static/css/main.7942404e.css.map",
+    "main.505cafa4.js.map": "/ldlamti-family-tree/static/js/main.505cafa4.js.map",
     "453.5c7bbaba.chunk.js.map": "/ldlamti-family-tree/static/js/453.5c7bbaba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18923c7c.css",
-    "static/js/main.e86d0470.js"
+    "static/css/main.7942404e.css",
+    "static/js/main.505cafa4.js"
   ]
 }
