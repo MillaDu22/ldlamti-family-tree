@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/ldlamti-family-tree/static/css/main.7942404e.css",
-    "main.js": "/ldlamti-family-tree/static/js/main.505cafa4.js",
+    "main.css": "/ldlamti-family-tree/static/css/main.4decf626.css",
+    "main.js": "/ldlamti-family-tree/static/js/main.1ee11dd1.js",
     "static/js/453.5c7bbaba.chunk.js": "/ldlamti-family-tree/static/js/453.5c7bbaba.chunk.js",
-    "static/media/olivier.png": "/ldlamti-family-tree/static/media/olivier.d42d7eb163d915ee186d.png",
-    "static/media/espagne.png": "/ldlamti-family-tree/static/media/espagne.59e666e6a1891487fe6b.png",
-    "static/media/orchidée.png": "/ldlamti-family-tree/static/media/orchidée.d947dd75495347f5ab44.png",
-    "static/media/allemagne.png": "/ldlamti-family-tree/static/media/allemagne.4e2c369fec1912a69978.png",
     "static/media/tree2.png": "/ldlamti-family-tree/static/media/tree2.4dc7ebd45aef903b758f.png",
-    "static/media/italie.png": "/ldlamti-family-tree/static/media/italie.cc09b7779d0400f14901.png",
-    "static/media/france.png": "/ldlamti-family-tree/static/media/france.c736c459f76d3a6636e1.png",
-    "static/media/tree.png": "/ldlamti-family-tree/static/media/tree.2b074aa0855c37120845.png",
-    "static/media/alliances.png": "/ldlamti-family-tree/static/media/alliances.73e2020a9fc6c5e58e0b.png",
-    "static/media/lavande3.png": "/ldlamti-family-tree/static/media/lavande3.e3569231fd604cdb1d4e.png",
+    "static/media/tree.webp": "/ldlamti-family-tree/static/media/tree.5da4148aab6c6ca10b31.webp",
     "static/media/Boheme Floral.ttf": "/ldlamti-family-tree/static/media/Boheme Floral.0345ab604f426031d363.ttf",
+    "static/media/lavande3.webp": "/ldlamti-family-tree/static/media/lavande3.3a46dd54b2c27939dab7.webp",
     "static/media/Cinzel-Regular.otf": "/ldlamti-family-tree/static/media/Cinzel-Regular.f91baf6fe825a2549798.otf",
+    "static/media/olivier.webp": "/ldlamti-family-tree/static/media/olivier.30c3b0d0344d3aeb3b7d.webp",
     "static/media/photo-moi.webp": "/ldlamti-family-tree/static/media/photo-moi.91ef79723d60e8dfc21a.webp",
+    "static/media/orchidée.webp": "/ldlamti-family-tree/static/media/orchidée.23a11dff15bb30bc06fa.webp",
+    "static/media/lavande4.webp": "/ldlamti-family-tree/static/media/lavande4.ff024c46bc27be4ac63b.webp",
+    "static/media/alliances.webp": "/ldlamti-family-tree/static/media/alliances.c7e42ad5b362287c0419.webp",
+    "static/media/espagne.webp": "/ldlamti-family-tree/static/media/espagne.57ff7680744b84d33f5b.webp",
+    "static/media/france.webp": "/ldlamti-family-tree/static/media/france.7bbf699b5787eded172b.webp",
+    "static/media/allemagne.webp": "/ldlamti-family-tree/static/media/allemagne.4cb1265acc1a4493f386.webp",
+    "static/media/italie.webp": "/ldlamti-family-tree/static/media/italie.8c1788944c79d72aa58b.webp",
     "index.html": "/ldlamti-family-tree/index.html",
-    "main.7942404e.css.map": "/ldlamti-family-tree/static/css/main.7942404e.css.map",
-    "main.505cafa4.js.map": "/ldlamti-family-tree/static/js/main.505cafa4.js.map",
+    "main.4decf626.css.map": "/ldlamti-family-tree/static/css/main.4decf626.css.map",
+    "main.1ee11dd1.js.map": "/ldlamti-family-tree/static/js/main.1ee11dd1.js.map",
     "453.5c7bbaba.chunk.js.map": "/ldlamti-family-tree/static/js/453.5c7bbaba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7942404e.css",
-    "static/js/main.505cafa4.js"
+    "static/css/main.4decf626.css",
+    "static/js/main.1ee11dd1.js"
   ]
 }
