@@ -9,7 +9,7 @@ const Fiche = () => {
     const person = treeData.individuals.find(individual => individual.id === parseInt(id));
 
     if (!person) {
-        return <p>Membre non trouvé</p>;
+        return <p className ="error404member">Error 404 - Membre non trouvé</p>;
     }
 
     return (

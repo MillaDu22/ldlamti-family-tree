@@ -8,6 +8,13 @@
     align-items: center;
 }
 
+.error404member {
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size:20px;
+    color:red;
+    text-align: center;
+}
+
 .container-containers-fiche {
     display: flex;
     flex-direction: row;
