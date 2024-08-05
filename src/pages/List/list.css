@@ -65,6 +65,7 @@ ul{
 }
 
 .member-link {
+    line-height: 30px;
     text-decoration: none;
     color: blue;
     font-family: 'Ysabeau SC', sans-serif;

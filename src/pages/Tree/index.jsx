@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Alliance from '../../assets/icons/alliances.png';
+import Alliance from '../../assets/icons/alliances.webp';
 import Connector from '../../components/Connector/index';
 import './tree.css';
 import treeData from '../../Datas/datasTree.json';
@@ -25,25 +25,25 @@ const FamilyTree = () => {
             <Link to={`/fiche/${id}`} className="link">
                 <div className={`card-content ${borderClass}`}>
                     <div className="card-item">
-                        <strong>Prénom:</strong> {first_name}
-                    </div>
-                    <div className="card-item">
                         <strong>Nom:</strong> {last_name}
                     </div>
                     <div className="card-item">
-                        <strong>Date de naissance:</strong> {birth_date}
+                        <strong>Prénom:</strong> {first_name}
+                    </div>
+                    <div className="card-item">
+                        <strong>Naissance:</strong> {birth_date}
                     </div>
                     <div className="card-item">
                         <strong>à:</strong> {birth_place}
                     </div>
                     <div className="card-item">
-                        <strong>Date de décès:</strong> {death_date}
+                        <strong>Décès:</strong> {death_date}
                     </div>
                     <div className="card-item">
                         <strong>à:</strong> {death_place}
                     </div>
                     <div className="card-item">
-                        <strong>Profession:</strong> {profession}
+                        <strong>Métier:</strong> {profession}
                     </div>
                 </div>
             </Link>
